@@ -375,7 +375,7 @@
 //     document.write("Welcome Ma'am")
 // }
 
-//Question No 3
+//Question No 3 ******
 // var color1=prompt("enter a signal color 1")
 // var color2=prompt("enter a signal color 2")
 // var color3=prompt("enter a signal color 3")
@@ -383,3 +383,210 @@
 // var mess1="Ready to move"
 // var mess1="Now move"
 // document.write("<table><tr><th>Signal color</th><th>Message</th></tr><tr><td>Red</td><td>Must Stop</td></tr><tr><td>Yello</td><td>Ready to move</td></tr><tr><td>Green</td><td>Move now</td></tr></table> ")
+
+//Question No 4
+// var fuel=+prompt("Enter Remaining fuel in Leters")
+// if (fuel==0.25){
+//     document.write("Please refill the fuel in your car”")
+// }
+
+//Question No 5
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+// if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+// if("car" < "cat"){
+// alert("car is smaller than cat");
+// }
+
+//Question No 6
+// document.write("<h1>Mark Sheet </h1>")
+// document.write("<br>")
+// var subject_1=+prompt("Enter Your First subject Marks")
+// var subject_2=+prompt("Enter Your second subject Marks")
+// var subject_3=+prompt("Enter Your third subject Marks")
+// var total_marks=300
+// var obtain_marks=(subject_1+subject_2+subject_3)
+// var percentage=(subject_1+subject_2+subject_3)/total_marks*100
+// document.write("Total marks: "+total_marks)
+// document.write("<br>")
+// document.write("Marks obtained: "+obtain_marks)
+// document.write("<br>")
+// document.write("Percentage: "+percentage+"%")
+// document.write("<br>")
+// if (percentage>=80){
+//     document.write("Grade A")
+//     document.write("<br>")
+//     document.write("Excellent")
+// }else if(percentage>=70){
+//     document.write("Grade B")
+//     document.write("<br>")
+//     document.write("Good")
+// }else if(percentage>=60){
+//     document.write("Grade C")
+//     document.write("<br>")
+//     document.write("You need to improve")
+// }else{
+//     document.write("Fail")
+//     document.write("<br>")
+//     document.write("sorry")
+// }
+
+//Question No 7
+// var num_guess=7
+// var guess= +prompt("Enter Number between 1 to 10")
+// if (guess==num_guess){
+//     document.write("Bingo! Correct answewr")
+// }else if(guess== ++num_guess){
+//     document.write("Close enough to the correct answer")
+// }
+
+//Question No 8
+// var num_5= +prompt("Enter a number")
+// if (num_5%3==0){
+//     document.write("Yes this number is divisible by 3")
+// }
+
+//Question No 9
+// var num_6= +prompt("Enter a number")
+// if (num_6%2==0){
+//     document.write(num_6 + " is Even Number ")
+// }else{
+//     document.write(num_6 + " is Odd Number ")
+// }
+
+//Question No 10
+// var temp=+prompt("Enter Temperature ")
+// if(temp>40){
+//     document.write("It is too hot outside.")
+// }else if(temp>30){
+//     document.write("The Weather today is Normal.")
+// }else if(temp>20){
+//     document.write("Today’s Weather is cool.")
+// }else if(temp>10){
+//     document.write("OMG! Today’s weather is so Cool.")
+// }
+
+//Question No 11
+// var first_num=+prompt("Enter a first number.")
+// var second_num=+prompt("Enter a second number.")
+// var operator=prompt("enter a operator")
+// if(operator=="+"){
+//     var sum=first_num+second_num
+//     document.write("Sum of "+ first_num + " and "+ second_num + " is "+ sum )
+// }else if(operator=="-"){
+//     var sub=first_num-second_num
+//     document.write("Subtraction of "+ first_num + " and "+ second_num + "is "+ sub )
+// }else if(operator=="*"){
+//     var mul=first_num*second_num
+//     document.write("multiplication of "+ first_num + " and "+ second_num + " is "+ mul )
+// }else if(operator=="/"){
+//     var div=first_num/second_num
+//     document.write("division of "+ first_num + " and "+ second_num + " is "+ div )
+// }else if(operator=="%"){
+//     var mod=first_num%second_num
+//     document.write("modulo of "+ first_num + " and "+ second_num + " is "+ mod )
+// }
+
+//chapter # 11 to 13
+//Question No 1 ******
+
+//Question No 2
+// var num_7=+prompt("Enter a first number")
+// var num_8=+prompt("Enter a second number")
+// if (num_7>num_8){
+//     document.write(num_7+ " is graster than the " + num_8)
+// }else if (num_8>num_7){
+//     document.write(num_8+ " is graster than the " + num_7)
+// }else if(num_7==num_8){
+//     document.write(num_7 + " is equal to" + num_8)
+// }
+
+//Question No 3
+// var num_9=+prompt("enter a number")
+// if (num_9==0){
+//     document.write("Number is zero")
+// }else if (num_9>0){
+//     document.write("Number is positive")
+// }else if (num_9<0){
+//     document.write("Number is Negative")
+// }
+
+//Question No 4
+// var char=prompt("Enter a character")
+// if (char=="a"){
+//     document.write("Charcter is vowel")
+// }else if (char=="e"){
+//     document.write("Charcter is vowel")
+// }else if (char=="i"){
+//     document.write("Charcter is vowel")
+// }else if (char=="o"){
+//     document.write("Charcter is vowel")
+// }else  if (char=="u"){
+//     document.write("Charcter is vowel")
+// }else{
+//     document.write("Character is not vowel")
+// }
+
+//Question No 5 
+// var password="abc12@#"
+// var input=prompt("Enter a password")
+// if (password==input){
+//     document.write("Correct!")
+// }else if(input==0){              //also else if(input==false)
+//     document.write("please enter a password")
+// }else{
+//     document.write("Incorrect password")
+// }
+
+//Question No 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+//     document.write(greeting)
+// }else{
+//     greeting = "Good evening";
+//     document.write(greeting)
+// }
+
+//Question No 7
+// var time=+prompt("Enter a time", "1700")
+// if (time>=0000 && time < 1200){
+//     document.write("Good morning")
+// }else if (time>=1200 && time < 1700){
+//     document.write("Good Afternoon")
+// }else if (time>=1700 && time < 2100){
+//     document.write("Good Evening")
+// }else if (time>=2100 && time <= 12400){
+//     document.write("Good morning")
+// }
